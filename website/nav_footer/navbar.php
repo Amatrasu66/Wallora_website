@@ -11,12 +11,12 @@
     <div class="container">
         <!-- Left side: Website name as logo -->
         <div class="logo">
-            <a style="font-size: 28px;" class="stdfont" href="/website web1/website/index.html">Wallora</a>
+            <a style="font-size: 28px;" class="stdfont" href="/website web1/website/index.php">Wallora</a>
         </div>
 
         <!-- Right side: Navigation Links -->
         <ul class="nav-links">
-            <li><a class="stdfont" href="/website web1/website/index.html">Home</a></li>
+            <li><a class="stdfont" href="/website web1/website/index.php">Home</a></li>
             
             <!-- Categories with Dropdown -->
             <li class="dropdown">

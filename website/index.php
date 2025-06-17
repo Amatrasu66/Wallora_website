@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wallora</title>
   <link rel="stylesheet" href="nav_footer/nav_footer.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index2.css">
   <style>
     html{ 
       scroll-behavior: smooth; 
-      margin:0; 
     }
 
     .stdfontarial{
@@ -21,7 +20,7 @@
     }
 
     /* Hero */
-    .hero {
+     .hero {
       background: #666;
       color: #fff;
       text-align: center;
@@ -41,26 +40,24 @@
     .hero .btn-primary:hover {
       background: #0056b3;
     } 
-
+        
     *{
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      }
+    }
 
     body{
-      margin: 0;
-      font-family: Arial, sans-serif; 
       background-color: #D2D2D2;
       background-image:
-        repeating-linear-gradient(
-          to right, transparent 0 100px, #25283b22 100px 101px
-        ),
-        repeating-linear-gradient(
-          to bottom, transparent 0 100px, #25283b22 100px 101px
-        );
+      repeating-linear-gradient(
+        to right, transparent 0 100px, #25283b22 100px 101px
+      ),
+      repeating-linear-gradient(
+        to bottom, transparent 0 100px, #25283b22 100px 101px
+      );
     }
-    
+        
     body::before{
       position: absolute;
       width: min(1400px, 90vw);
@@ -74,13 +71,13 @@
       background-repeat: no-repeat;
       background-position: top center;
       pointer-events: none;
-    } 
+    }
   </style>
+  
 </head>
+<body>
 
-<body id="top">
-
-<?php include 'nav_footer/navbar.php'; ?>
+  <?php include 'nav_footer/navbar.php'; ?>
 
   <!-- //Hero Section -->
   <div class="hero">
@@ -108,17 +105,14 @@
       </h1>
       <div class="author">
         <h2>AMATRASU</h2>
-          <p><b>Coader</b></p>
-          <p>
-            Transform your screen into a canvas of inspiration with Wallora.
-          </p>
-        </div>
+        <p><b>Coader</b></p>
+        <p>
+          Transform your screen into a canvas of inspiration with Wallora.
+        </p>
+      </div>
       <div class="model"></div>
     </div>
   </div>
-
-<!-- //Footer -->
   <?php include 'nav_footer/footer.php'; ?>
-
 </body>
 </html>

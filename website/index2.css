@@ -8,6 +8,7 @@
     overflow: hidden;
     position: relative;
 }
+
 .banner .slider{
     position: absolute;
     width: 200px;
@@ -19,6 +20,7 @@
     animation: autoRun 20s linear infinite;
     z-index: 2;
 }
+
 @keyframes autoRun{
     from{
         transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
@@ -34,11 +36,13 @@
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
         translateZ(550px);
 }
+
 .banner .slider .item img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 .banner .content{
     position: absolute;
     bottom: 0;
@@ -53,6 +57,7 @@
     align-items: center;
     z-index: 1;
 }
+
 .banner .content h1{
     font-family: 'ICA Rubrik';
     font-size: 16em;
@@ -60,6 +65,7 @@
     color: #25283B;
     position: relative;
 }
+
 .banner .content h1::after{
     position: absolute;
     inset: 0 0 0 0;
@@ -68,14 +74,17 @@
     -webkit-text-stroke: 2px #d2d2d2;
     color: transparent;
 }
+
 .banner .content .author{
     font-family: Poppins;
     text-align: right;
     max-width: 200px;
 }
+
 .banner .content h2{
     font-size: 3em;
 }
+
 .banner .content .model{
     background-image: url(../index.html_images/model.png);
     width: 100%;
@@ -88,6 +97,7 @@
     background-position: top center;
     z-index: 1;
 }
+
 @media screen and (max-width: 1023px) {
     .banner .slider{
         width: 160px;
@@ -116,6 +126,7 @@
         padding: 0 30px;
     }
 }
+
 @media screen and (max-width: 767px) {
     .banner .slider{
         width: 100px;

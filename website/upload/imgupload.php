@@ -5,12 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Wallora Upload Wallpapers</title>
   <link rel="stylesheet" href="../nav_footer/nav_footer.css">
-  <link rel="stylesheet" href="imgupload.css">
+  <link rel="stylesheet" href="../upload/imgupload.css">
   <link rel="stylesheet" href="../universal_background_css/universal_background.css">
+  <style>
+    /* .box1{
+      border: 5px solid yellow;
+    } */
+  </style>
 </head>
 <body>
   <?php include("../nav_footer/navbar.php"); ?>
-
+  <div class="box1">
     <h1>Upload a New Wallpaper</h1>
     <form action="uploadhandler.php" method="post" enctype="multipart/form-data">
     <label>Title:</label><br>
@@ -35,7 +40,7 @@
 
     <button type="submit">Upload</button>
   </form>
-
+</div>
   <?php include("../nav_footer/footer.php"); ?>
 
 </body>

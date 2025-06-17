@@ -7,20 +7,17 @@
   <link rel="stylesheet" href="nav_footer/nav_footer.css">
   <link rel="stylesheet" href="index2.css">
   <style>
-    html{ 
-      scroll-behavior: smooth; 
-    }
+    html { scroll-behavior: smooth; }
 
-    .stdfontarial{
+    .stdfontarial {
       font-family: Arial, sans-serif;
     }
 
-    .stdfont{
+    .stdfont {
       font-family: 'Times New Roman', Times, serif;
     }
 
-    /* Hero */
-     .hero {
+    .hero {
       background: #666;
       color: #fff;
       text-align: center;
@@ -39,47 +36,41 @@
 
     .hero .btn-primary:hover {
       background: #0056b3;
-    } 
-        
-    *{
+    }
+
+    * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    body{
+    body {
       background-color: #D2D2D2;
       background-image:
-      repeating-linear-gradient(
-        to right, transparent 0 100px, #25283b22 100px 101px
-      ),
-      repeating-linear-gradient(
-        to bottom, transparent 0 100px, #25283b22 100px 101px
-      );
+        repeating-linear-gradient(to right, transparent 0 100px, #25283b22 100px 101px),
+        repeating-linear-gradient(to bottom, transparent 0 100px, #25283b22 100px 101px);
     }
-        
-    body::before{
+
+    body::before {
       position: absolute;
-      width: min(1400px, 90vw);
+      width: min(100px, 100vw);
       top: 10%;
       left: 50%;
       height: 90%;
-      transform: translateX(-50%);
+      /* transform: translateX(-50%); */
       content: '';
-      background-image: url(images/bg.png);
-      background-size: 100%;
+      background-image: url(../index.html_images/bannerimg.jpg);
+      background-size:50%;
       background-repeat: no-repeat;
       background-position: top center;
       pointer-events: none;
     }
   </style>
-  
 </head>
 <body>
 
   <?php include 'nav_footer/navbar.php'; ?>
 
-  <!-- //Hero Section -->
   <div class="hero">
     <h1>Discover Stunning Wallpapers</h1>
     <p>Find the perfect background to personalize your devices.</p>
@@ -99,20 +90,19 @@
       <div class="item" style="--position: 9"><img src="../index.html_images/dragon_9.jpg" alt=""></div>
       <div class="item" style="--position: 10"><img src="../index.html_images/dragon_10.jpg" alt=""></div>
     </div>
+
     <div class="content">
-      <h1 data-content="WALLORA">
-        WALLORA
-      </h1>
+      <h1 data-content="WALLORA">WALLORA</h1>
       <div class="author">
         <h2>AMATRASU</h2>
         <p><b>Coader</b></p>
-        <p>
-          Transform your screen into a canvas of inspiration with Wallora.
-        </p>
+        <p>Transform your screen into a canvas of inspiration with Wallora.</p>
       </div>
       <div class="model"></div>
     </div>
   </div>
+
   <?php include 'nav_footer/footer.php'; ?>
+
 </body>
 </html>

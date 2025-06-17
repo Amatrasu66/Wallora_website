@@ -34,10 +34,13 @@
 /* navbar new */
 
     /* Base styles */
+
 .navbar {
     background-color: #111;
     color: #fff;
     padding: 1rem 0;
+    margin: 0;
+    
 }
 
 .container {
@@ -112,5 +115,5 @@
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }

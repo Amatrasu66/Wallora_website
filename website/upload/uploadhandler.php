@@ -1,6 +1,6 @@
 <?php
 // Include your DB connection
-require_once __DIR__ . '/../database.php'; // ✅ Fixed path
+require_once __DIR__ . '../../database_connection/database.php'; // ✅ Fixed path
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title    = mysqli_real_escape_string($conn, $_POST['title']);

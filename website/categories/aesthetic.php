@@ -10,6 +10,7 @@ include '../database_connection/database.php';  // your mysqli connection
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../nav_footer/nav_footer.css">
   <link rel="stylesheet" href="../universal_background_css/universal_background.css">
+  <link rel="stylesheet" href="../card_styling/cardstyling.css">
   <style>
     h1{
       text-align:center;

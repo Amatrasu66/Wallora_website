@@ -38,6 +38,7 @@
             padding-top: 1rem;
             padding-bottom: 1rem;
         }
+
     </style>
 </head>
 <body>
@@ -87,6 +88,7 @@
     </div>
 
     <?php include 'nav_footer/footer.php'; ?>
-
+    
+</div>
 </body>
 </html>

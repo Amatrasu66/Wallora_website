@@ -19,9 +19,6 @@ include '../database_connection/database.php';  // your mysqli connection
       font-size: 2rem;
     }
 
-    .foot1{
-      border: 5px solid black;
-    }
   </style>
 </head>
 <body>
@@ -51,9 +48,8 @@ include '../database_connection/database.php';  // your mysqli connection
       <p style="text-align:center;">No light wallpapers found.</p>
     <?php endif; ?>
   </div>
-  <div class="foot1">
+
     <?php include("../nav_footer/footer.php"); ?>
-  </div>
   
 </body>
 </html>

@@ -91,37 +91,34 @@
 
   <div class="banner">
     <div class="slider" style="--quantity: 10">
-      <div class="item" style="--position: 1"><img src="../index.html_images/dragon_1.jpg" alt="dragon_1"></div>
-      <div class="item" style="--position: 2"><img src="../index.html_images/dragon_2.jpg" alt="dragon_2"></div>
-      <div class="item" style="--position: 3"><img src="../index.html_images/dragon_3.jpg" alt="dragon_3"></div>
-      <div class="item" style="--position: 4"><img src="../index.html_images/dragon_4.jpg" alt="dragon_4"></div>
-      <div class="item" style="--position: 5"><img src="../index.html_images/dragon_5.jpg" alt="dragon_5"></div>
-      <div class="item" style="--position: 6"><img src="../index.html_images/dragon_6.jpg" alt="dragon_6"></div>
-      <div class="item" style="--position: 7"><img src="../index.html_images/dragon_7.jpg" alt="dragon_7"></div>
-      <div class="item" style="--position: 8"><img src="../index.html_images/dragon_8.jpg" alt="dragon_8"></div>
-      <div class="item" style="--position: 9"><img src="../index.html_images/dragon_9.jpg" alt="dragon_9"></div>
-      <div class="item" style="--position: 10"><img src="../index.html_images/dragon_10.jpg" alt="dragon_10"></div>
+      <div class="item" style="--position: 1"><img src="../index.html_images/dragon_1.jpg" alt=""></div>
+      <div class="item" style="--position: 2"><img src="../index.html_images/dragon_2.jpg" alt=""></div>
+      <div class="item" style="--position: 3"><img src="../index.html_images/dragon_3.jpg" alt=""></div>
+      <div class="item" style="--position: 4"><img src="../index.html_images/dragon_4.jpg" alt=""></div>
+      <div class="item" style="--position: 5"><img src="../index.html_images/dragon_5.jpg" alt=""></div>
+      <div class="item" style="--position: 6"><img src="../index.html_images/dragon_6.jpg" alt=""></div>
+      <div class="item" style="--position: 7"><img src="../index.html_images/dragon_7.jpg" alt=""></div>
+      <div class="item" style="--position: 8"><img src="../index.html_images/dragon_8.jpg" alt=""></div>
+      <div class="item" style="--position: 9"><img src="../index.html_images/dragon_9.jpg" alt=""></div>
+      <div class="item" style="--position: 10"><img src="../index.html_images/dragon_10.jpg" alt=""></div>
     </div>
     <div class="content">
-      <h1 data-content = "WALLORRA">
-        WALLORRA
+      <h1 data-content="WALLORA">
+        WALLORA
       </h1>
       <div class="author">
         <h2>AMATRASU</h2>
-      </div>
+          <p><b>Coader</b></p>
+          <p>
+            Transform your screen into a canvas of inspiration with Wallora.
+          </p>
+        </div>
       <div class="model"></div>
     </div>
   </div>
 
 <!-- //Footer -->
-<div class="footer">
-  <p class="stdfontarial"><strong>Wallora</strong></p>
-  <p class="stdfontarial">© 2025 Wallora Wallpapers. All rights reserved.</p>
-  <p>
-    <a class="stdfontarial" href="/website web1/website/contact.php" style="color:#fff;text-decoration:none;">Privacy Policy</a> |
-    <a class="stdfontarial" href="/website web1/website/contact.php" style="color:#fff;text-decoration:none;">Terms of Service</a>
-  </p>
-</div>
+  <?php include 'nav_footer/footer.php'; ?>
 
 </body>
 </html>

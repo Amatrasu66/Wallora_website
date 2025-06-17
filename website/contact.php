@@ -39,6 +39,16 @@
             padding-bottom: 1rem;
         }
 
+    body{
+    background-color: #D2D2D2;
+      background-image:
+      repeating-linear-gradient(
+        to right, transparent 0 100px, #25283b22 100px 101px
+      ),
+      repeating-linear-gradient(
+        to bottom, transparent 0 100px, #25283b22 100px 101px
+      );
+    }
     </style>
 </head>
 <body>

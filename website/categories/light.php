@@ -18,7 +18,12 @@ include '../database_connection/database.php';  // your mysqli connection
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: 2rem;
     }
-
+    body {
+      background-color: #D2D2D2;
+      background-image:
+        repeating-linear-gradient(to right, transparent 0 100px, #25283b22 100px 101px),
+        repeating-linear-gradient(to bottom, transparent 0 100px, #25283b22 100px 101px);
+    }
   </style>
 </head>
 <body>

@@ -7,26 +7,32 @@
     <link rel="stylesheet" href="nav_footer/nav_footer.css">
   <!-- <link rel="stylesheet" href="index_work.css"> -->
   <style>
-    *{
+    /* *{
         margin: 0;
         padding: 0;
+    } */
+
+    body{
+      margin: 0;
+      padding: 0;
     }
     
-    /* Hero */
-    /* .hero {
+    /* Hero */ 
+    .hero {
     margin: 0;
     padding: 0;
       background: #666;
       color: #fff;
       text-align: center;
       padding: 60px 20px;
-      background-image: url(../index.html_images/bannerimg.jpg);
+      background-image: url(../index.html_images/bannerimg2.jpg);
       height: 70vh;
-      background-size: 100rem 35rem;
+      background-size: cover;
       background-repeat: no-repeat;
+      background-position: center;
       
-    } */
-    /* .hero .btn-primary {
+    } 
+    .hero .btn-primary {
       display: inline-block;
       margin-top: 1rem;
       background: #007bff;
@@ -34,27 +40,28 @@
       text-decoration: none;
       padding: 0.5rem 1rem;
       border-radius: 4px; */
-    /* } */
-    /* .hero .btn-primary:hover {
-      background: #0056b3;
-    } */
+    }
     
-    /* .nav{
+    .hero .btn-primary:hover {
+      background: #0056b3;
+    }
+    
+    .nav{
         padding: 1rem 0;
-    } */
+    }
 
     .foot1{
         border: 5px solid black;
         padding: 0;
     }
-
+/* 
     .footer {
         background: #222;
         color: #fff;
         text-align: center;
         padding: 2rem;
         
-    }
+    } */
 
   </style>
 </head>

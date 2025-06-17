@@ -4,10 +4,7 @@
             font-family: Arial, sans-serif;
         }
 
-       .footer
-       {
-        border: 5px solid black;
-       }
+      
     </style>
 </head>
 

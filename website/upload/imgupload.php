@@ -6,6 +6,7 @@
   <title>Wallora Upload Wallpapers</title>
   <link rel="stylesheet" href="../nav_footer/nav_footer.css">
   <link rel="stylesheet" href="imgupload.css">
+  <link rel="stylesheet" href="../universal_background_css/universal_background.css">
 </head>
 <body>
   <?php include("../nav_footer/navbar.php"); ?>

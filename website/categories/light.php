@@ -10,6 +10,7 @@ include '../database_connection/database.php';  // your mysqli connection
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../nav_footer/nav_footer.css">
   <link rel="stylesheet" href="../card_styling/cardstyling.css">
+  <link rel="stylesheet" href="../universal_background_css/universal_background.css">
   <style>
     h1{
       text-align:center;
@@ -17,12 +18,6 @@ include '../database_connection/database.php';  // your mysqli connection
       margin:0;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       font-size: 2rem;
-    }
-    body {
-      background-color: #D2D2D2;
-      background-image:
-        repeating-linear-gradient(to right, transparent 0 100px, #25283b22 100px 101px),
-        repeating-linear-gradient(to bottom, transparent 0 100px, #25283b22 100px 101px);
     }
   </style>
 </head>

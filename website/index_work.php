@@ -6,13 +6,14 @@
   <title>Wallora</title>
     <link rel="stylesheet" href="nav_footer/nav_footer.css">
   <link rel="stylesheet" href="index_work.css">
+  <link rel="stylesheet" href="universal_background_css/universal_background.css">
   <style>
     /* *{
         margin: 0;
         padding: 0;
     } */
 
-    body{
+    /* body{
       margin: 0;
       padding: 0;
       background-color: #D2D2D2;
@@ -23,7 +24,7 @@
       repeating-linear-gradient(
         to bottom, transparent 0 100px, #25283b22 100px 101px
       );
-    }
+    } */
     
     /* Hero */ 
     .hero {
@@ -73,6 +74,7 @@
     <p>Find the perfect background to personalize your devices.</p>
     <a href="categories.php" class="btn-primary">Explore Now</a>
   </div>
+
   <div class="banner">
     <div class="slider" style="--quantity: 10">
       <div class="item" style="--position: 1"><img src="../index.html_images/dragon_1.jpg" alt="dragon_1"></div>

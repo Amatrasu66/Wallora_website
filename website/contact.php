@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact | Wallora</title>
     <link rel="stylesheet" href="nav_footer/nav_footer.css">
+    <link rel="stylesheet" href="universal_background_css/universal_background.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -39,16 +41,6 @@
             padding-bottom: 1rem;
         }
 
-    body{
-    background-color: #D2D2D2;
-      background-image:
-      repeating-linear-gradient(
-        to right, transparent 0 100px, #25283b22 100px 101px
-      ),
-      repeating-linear-gradient(
-        to bottom, transparent 0 100px, #25283b22 100px 101px
-      );
-    }
     </style>
 </head>
 <body>

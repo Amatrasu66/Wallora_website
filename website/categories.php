@@ -5,17 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Wallora Categories</title>
   <link rel="stylesheet" href="nav_footer/nav_footer.css">
+  <link rel="stylesheet" href="universal_background_css/universal_background.css">
   <style>
 
     body{
       margin: 0;
       padding: 0;
+      background-color: #D2D2D2;
+      background-image:
+      repeating-linear-gradient(
+        to right, transparent 0 100px, #25283b22 100px 101px
+      ),
+      repeating-linear-gradient(
+        to bottom, transparent 0 100px, #25283b22 100px 101px
+      );
     }
+
     /* Categories */
     .category-container {
       text-align:center;
       padding:60px 20px;
-      background:#f8f9fa;
     }
     .category-container h2 {
       margin-bottom:1rem;

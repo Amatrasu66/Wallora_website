@@ -20,11 +20,6 @@
       font-family: 'Times New Roman', Times, serif;
     }
 
-    body{
-      margin: 0;
-      font-family: Arial, sans-serif; 
-    }
-
     /* Hero */
     .hero {
       background: #666;
@@ -54,14 +49,16 @@
       }
 
     body{
+      margin: 0;
+      font-family: Arial, sans-serif; 
       background-color: #D2D2D2;
       background-image:
-      repeating-linear-gradient(
-        to right, transparent 0 100px,#25283b22 100px 101px
-      ),
-      repeating-linear-gradient(
-        to bottom, transparent 0 100px,#25283b22 100px 101px
-      );
+        repeating-linear-gradient(
+          to right, transparent 0 100px, #25283b22 100px 101px
+        ),
+        repeating-linear-gradient(
+          to bottom, transparent 0 100px, #25283b22 100px 101px
+        );
     }
     
     body::before{
@@ -78,7 +75,6 @@
       background-position: top center;
       pointer-events: none;
     } 
-
   </style>
 </head>
 

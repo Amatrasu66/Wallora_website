@@ -45,7 +45,7 @@ include '../database_connection/database.php';  // your mysqli connection
         endwhile;
       else:
     ?>
-      <p style="text-align:center;">No dark wallpapers found.</p>
+      <p style="text-align:center;">No universe wallpapers found.</p>
     <?php endif; ?>
   </div>
 

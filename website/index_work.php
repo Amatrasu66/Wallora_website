@@ -77,16 +77,57 @@
 
   <div class="banner">
     <div class="slider" style="--quantity: 10">
-      <div class="item" style="--position: 1"><img src="../index.html_images/dragon_1.jpg" alt="dragon_1"></div>
-      <div class="item" style="--position: 2"><img src="../index.html_images/dragon_2.jpg" alt="dragon_2"></div>
-      <div class="item" style="--position: 3"><img src="../index.html_images/dragon_3.jpg" alt="dragon_3"></div>
-      <div class="item" style="--position: 4"><img src="../index.html_images/dragon_4.jpg" alt="dragon_4"></div>
-      <div class="item" style="--position: 5"><img src="../index.html_images/dragon_5.jpg" alt="dragon_5"></div>
-      <div class="item" style="--position: 6"><img src="../index.html_images/dragon_6.jpg" alt="dragon_6"></div>
-      <div class="item" style="--position: 7"><img src="../index.html_images/dragon_7.jpg" alt="dragon_7"></div>
-      <div class="item" style="--position: 8"><img src="../index.html_images/dragon_8.jpg" alt="dragon_8"></div>
-      <div class="item" style="--position: 9"><img src="../index.html_images/dragon_9.jpg" alt="dragon_9"></div>
-      <div class="item" style="--position: 10"><img src="../index.html_images/dragon_10.jpg" alt="dragon_10"></div>
+
+      <div class="item" style="--position: 1">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_1.jpg" alt="dragon_1">
+        </a>
+      </div>
+      <div class="item" style="--position: 2">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_2.jpg" alt="dragon_2">
+        </a>
+      </div>
+      <div class="item" style=" --position: 3">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_3.jpg" alt="dragon_3">
+        </a>
+      </div>
+      <div class="item" style="--position: 4">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_4.jpg" alt="dragon_4">
+        </a>
+      </div>
+      <div class="item" style="--position: 5">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_5.jpg" alt="dragon_5">
+        </a>
+      </div>
+      <div class="item" style="--position: 6">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_6.jpg" alt="dragon_6">
+        </a>
+      </div>
+      <div class="item" style="--position: 7">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_7.jpg" alt="dragon_7">
+        </a>
+      </div>
+      <div class="item" style="--position: 8">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_8.jpg" alt="dragon_8">
+        </a>
+      </div>
+      <div class="item" style="--position: 9">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_9.jpg" alt="dragon_9">
+        </a>
+      </div>
+      <div class="item" style="--position: 10">
+        <a href="categories/dragon.php">
+          <img src="../index.html_images/dragon_10.jpg" alt="dragon_10">
+        </a>
+      </div>
     </div>
     <div class="content">
       <h1 data-content="WALLORA">

@@ -27,6 +27,7 @@
                     <li><a class="stdfont" href="/website web1/website/categories/anime.php">Anime</a></li>
                     <li><a class="stdfont" href="/website web1/website/categories/cityscapes.php">Cityscapes</a></li>
                     <li><a class="stdfont" href="/website web1/website/categories/dark.php">Dark</a></li>
+                    <li><a class="stdfont" href="/website web1/website/categories/dragon.php">Dragon</a></li>
                     <li><a class="stdfont" href="/website web1/website/categories/flowers.php">Flowers</a></li>
                     <li><a class="stdfont" href="/website web1/website/categories/light.php">Light</a></li>
                     <li><a class="stdfont" href="/website web1/website/categories/nature.php">Nature</a></li>

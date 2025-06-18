@@ -59,6 +59,7 @@
     <a href="categories/anime.php" class="category-btn">Anime</a>
     <a href="categories/cityscapes.php" class="category-btn">Cityscapes</a>
     <a href="categories/dark.php" class="category-btn">Dark</a>
+    <a href="categories/dragon.php" class="category-btn">Dragon</a>
     <a href="categories/flowers.php" class="category-btn">Flowers</a>
     <a href="categories/light.php" class="category-btn">Light</a>
     <a href="categories/nature.php" class="category-btn">Nature</a>

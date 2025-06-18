@@ -28,6 +28,7 @@
       <option value="anime">Anime</option>
       <option value="cityscapes">Cityscapes</option>
       <option value="dark">Dark</option>
+      <option value="dragon">Dragon</option>
       <option value="flowers">Flowers</option>
       <option value="light">Light</option>
       <option value="nature">Nature</option>

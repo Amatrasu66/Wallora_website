@@ -25,16 +25,19 @@
     .category-container {
       text-align:center;
       padding:60px 20px;
+      height: 70vh;
     }
     .category-container h2 {
       margin-bottom:1rem;
       font-size:2rem;
+      padding: 3rem;
+      
     }
     .category-btn {
       display:inline-block;
       margin:0.5rem;
       padding:0.75rem 1.5rem;
-      background:#007bff;
+      background-color: rgb(47, 50, 54);
       color:#fff;
       text-decoration:none;
       border-radius:4px;

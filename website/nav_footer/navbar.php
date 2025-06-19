@@ -2,12 +2,30 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
+
+// OPTIONAL: Avoid repeated DB calls if already available elsewhere
+$is_admin = false;
+
+if (isset($_SESSION["user_id"])) {
+    include_once "../database_connection/database.php"; // Adjust path if needed
+    $uid = $_SESSION["user_id"];
+
+    $stmt = $conn->prepare("SELECT is_admin FROM users WHERE id = ?");
+    $stmt->bind_param("i", $uid);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $userData = $result->fetch_assoc();
+
+    if ($userData && $userData["is_admin"] == 1) {
+        $is_admin = true;
+    }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <style>
-        .stdfont{
+        .stdfont {
             font-family: 'Times New Roman', Times, serif;
         }
     </style>
@@ -47,7 +65,11 @@ if (session_status() === PHP_SESSION_NONE) {
 
             <?php if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true): ?>
                 <li><a class="stdfont" href="#">Welcome, <?= htmlspecialchars($_SESSION["username"]) ?></a></li>
-                <li><a class="stdfont" href="/website web1/website/upload/imgupload.php">Upload</a></li>
+
+                <?php if ($is_admin): ?>
+                    <li><a class="stdfont" href="/website web1/website/upload/imgupload.php">Upload</a></li>
+                <?php endif; ?>
+
                 <li><a class="stdfont" href="/website web1/website/login_signup/logout.php">Logout</a></li>
             <?php else: ?>
                 <li><a class="stdfont" href="/website web1/website/login_signup/login.php">Login</a></li>

@@ -1,3 +1,33 @@
+<?php
+// Start session only if not already started
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Check if user is logged in
+if (!isset($_SESSION['user_id'])) {
+    header("Location: ../login_signup/login.php");
+    exit();
+}
+
+// Include database
+include '../database_connection/database.php';
+
+// Get the logged-in user's admin status
+$user_id = $_SESSION['user_id'];
+$sql = "SELECT is_admin FROM users WHERE id = ?";
+$stmt = $conn->prepare($sql);
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+$result = $stmt->get_result();
+$user = $result->fetch_assoc();
+
+if (!$user || $user['is_admin'] != 1) {
+    echo "Access denied. You are not authorized to view this page.";
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,3 +1,10 @@
+<?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <style>
         .stdfont{
@@ -37,7 +44,15 @@
             </li>
 
             <li><a class="stdfont" href="/website web1/website/contact.php">Contact</a></li>
-            <li><a class="stdfont" href="/website web1/website/login.html">Login / Sign Up</a></li>
+
+            <?php if (isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true): ?>
+                <li><a class="stdfont" href="#">Welcome, <?= htmlspecialchars($_SESSION["username"]) ?></a></li>
+                <li><a class="stdfont" href="/website web1/website/upload/imgupload.php">Upload</a></li>
+                <li><a class="stdfont" href="/website web1/website/login_signup/logout.php">Logout</a></li>
+            <?php else: ?>
+                <li><a class="stdfont" href="/website web1/website/login_signup/login.php">Login</a></li>
+                <li><a class="stdfont" href="/website web1/website/login_signup/signup.php">Sign Up</a></li>
+            <?php endif; ?>
         </ul>
     </div>
 </nav>

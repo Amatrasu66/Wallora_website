@@ -142,7 +142,6 @@
       <div class="model"></div>
     </div>
   </div>
-    <p>rag</p>
   <!-- Footer -->
   <?php include 'nav_footer/footer.php'; ?>
 
